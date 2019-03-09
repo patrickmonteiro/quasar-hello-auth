@@ -1,6 +1,7 @@
+# Quasar + Hello.js
+
 ![](https://github.com/patrickmonteiro/quasar-hello-auth/blob/master/docs/QuasarProject.png?raw=true)
 
-# Quasar + Hello.js
 
 Aplicação desenvolvida com [Quasar Framework](https://quasar-framework.org/) e autenticação com redes sociais usando [Hello.js](https://adodson.com/hello.js/)
 
