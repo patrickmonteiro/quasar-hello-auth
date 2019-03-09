@@ -9,7 +9,7 @@
 
 <style>
 ::-webkit-scrollbar {
-display: none;
+  display: none;
 }
 .img-background{
   background: #fff url(../statics/background-img.jpg);
@@ -20,9 +20,5 @@ display: none;
   background-repeat: no-repeat;
   background-size: cover;
   border: solid 1px black
-}
-
-.dark{
-  background: #3b3b3bc7;
 }
 </style>

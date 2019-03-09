@@ -9,10 +9,10 @@ const routes = [
   },
   {
     path: '/login',
-    component: () => import('layouts/Login.vue')
-    // children: [
-    //   { path: '', component: () => import('pages/FacebookLogin.vue') }
-    // ]
+    component: () => import('layouts/LoginLayout.vue'),
+    children: [
+      { path: '', component: () => import('pages/Login.vue') }
+    ]
   }
 ]
 
