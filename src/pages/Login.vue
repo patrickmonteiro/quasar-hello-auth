@@ -15,7 +15,7 @@
           </div>
        </div>
     </q-page>
-</template>,
+</template>
 
 <script>
 export default {
