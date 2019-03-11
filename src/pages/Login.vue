@@ -22,9 +22,9 @@ export default {
   name: 'Login',
   methods: {
     auth (network) {
-      this.$hello(network).login()
-        .then((res) => {
-          console.log(res)
+      this.$hello(network).login({ scope: 'friends' })
+        .then(() => {
+          this.$router.push('perfil')
         })
     }
   }
